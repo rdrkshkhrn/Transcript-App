@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Transcript App
+#### Deployed link : https://transcript-steel.vercel.app/
+A voice transcriber application built with Next.js, TypeScript, and Tailwind CSS. This application allows users to transcribe speech into text in real-time, visualize audio input with a dynamic waveform, and maintain a history of transcriptions.
 
-First, run the development server:
 
-```bash
+## Features
+- **Real-time Speech Recognition**: Converts spoken words into text as you speak.
+- **Waveform Visualizer**: Displays an eye-catching audio waveform while recording.
+- **Transcription History**: Keeps track of past transcriptions for easy reference.
+- **User-Friendly Interface**: Designed with Tailwind CSS for an appealing user experience.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs quickly.
+- **Speech Recognition API**: Utilizes the Web Speech API for voice recognition.
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/hm5DFXp/ta1.png)
+
+![App Screenshot](https://i.ibb.co/YP48xQW/ta2.png)
+
+![App Screenshot](https://i.ibb.co/HGMPRLz/ta3.png)
+
+
+
+## Installation
+
+Clone the Repository :-
+
+git clone https://github.com/rdrkshkhrn/Transcript-App.git
+
+cd transcriber
+
+Navigate to the project directory : cd transcriber
+
+Install dependencies:
+npm install
+
+Run the application:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    
+The application will run at http://localhost:3000.
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+• Click on the "Start Listening" button to begin transcribing your speech.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+• Speak clearly into your microphone; the text will appear in real-time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+• When finished, click "Stop Listening". The transcription will be saved in the history section.
 
-## Learn More
+• View your previous transcriptions in the "Transcription History" section.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! If you'd like to contribute to the project, feel free to open a pull request or create an issue for discussion. Here's how you can contribute:
 
-## Deploy on Vercel
+Fork the repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create a new branch (git checkout -b feature-branch).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Make your changes and commit them (git commit -m 'Added new feature').
+
+Push to the branch (git push origin feature-branch).
+
+Create a pull request.
